@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Products - My E-commerce Site</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Our Pet Products</h1>
+    </header>
+
+    <section class="products-container">
+         <!-- Birds -->
+         <div class="product">
+            <img src="images/Bird.jpg" alt="Fish">
+            <h2>Birds</h2>
+            <p>Price: $300</p>
+            <button onclick="addToCart(0)">Add to Cart</button>
+        </div>
+        
+        <!-- Dog Food -->
+        <div class="product">
+            <img src="images/DogFood.jpg" alt="Dog Food">
+            <h2>Dog Food</h2>
+            <p>Price: $50</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+
+        <!-- Fish Food -->
+        <div class="product">
+            <img src="images/FishFood.jpg" alt="Fish Food">
+            <h2>Fish Food</h2>
+            <p>Price: $20</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+
+        <!-- Cat Food -->
+        <div class="product">
+            <img src="images/CatFood.jpg" alt="Cat Food">
+            <h2>Cat Food</h2>
+            <p>Price: $40</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+
+        <!-- Dog Clothes -->
+        <div class="product">
+            <img src="images/DogClothes.jpg" alt="Dog Clothes">
+            <h2>Dog Clothes</h2>
+            <p>Price: $30</p>
+            <button onclick="addToCart(4)">Add to Cart</button>
+        </div>
+
+        <!-- Cat Clothes -->
+        <div class="product">
+            <img src="images/CatClothes.jpg" alt="Cat Clothes">
+            <h2>Cat Clothes</h2>
+            <p>Price: $25</p>
+            <button onclick="addToCart(5)">Add to Cart</button>
+        </div>
+
+        <!-- Dog Collar -->
+        <div class="product">
+            <img src="images/DogCollar.jpg" alt="Dog Collar">
+            <h2>Dog Collar</h2>
+            <p>Price: $15</p>
+            <button onclick="addToCart(6)">Add to Cart</button>
+        </div>
+
+        <!-- Fish -->
+        <div class="product">
+            <img src="images/Fish.jpg" alt="Fish">
+            <h2>Fish</h2>
+            <p>Price: $100</p>
+            <button onclick="addToCart(7)">Add to Cart</button>
+        </div>
+
+         <!-- Bird Cage -->
+         <div class="product">
+            <img src="images/Bird-Cage.jpg" alt="Fish">
+            <h2>Bird Cage</h2>
+            <p>Price: $135</p>
+            <button onclick="addToCart(8)">Add to Cart</button>
+        </div>
+
+         <!-- Chew Toys -->
+         <div class="product">
+            <img src="images/ChewToys.jpg" alt="Fish">
+            <h2>Chew Toys</h2>
+            <p>Price: $15</p>
+            <button onclick="addToCart(9)">Add to Cart</button>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+    <!-- Checkout, Cancel, Exit Buttons -->
+    <div class="buttons">
+        <button onclick="checkout()">CheckOut</button>
+        <button onclick="cancelOrder()">Cancel</button>
+        <button onclick="exitPage()">Exit</button>
+    </div>
+
+    <!-- About Us button -->
+    <div class="about-us">
+        <a href="about.html">About Us</a>
+    </div>
+
+    <script src="js/products.js"></script>
+</body>
+</html>

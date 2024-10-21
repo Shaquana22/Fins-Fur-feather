@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice - My E-commerce Site</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Invoice</h1>
+    </header>
+
+    <section class="invoice-container">
+        <h2>Order Summary</h2>
+        <div id="invoice-details"></div> <!-- This will display the dynamic invoice details -->
+
+        <div class="buttons">
+            <button onclick="confirmOrder()">Confirm Order</button>
+            <button onclick="cancelOrder()">Cancel Order</button>
+        </div>
+    </section>
+
+    <script src="js/invoice.js"></script> <!-- The JavaScript file for invoice logic -->
+</body>
+</html>
